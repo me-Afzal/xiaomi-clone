@@ -12,14 +12,12 @@ body{
 }
 .header{
     width: 104%;
-    height: 74px;
+    height: 66px;
     background: rgb(251, 248, 248);
 }
 .mcontent{
-    
     width: 100%;
     height: 302px;
-   
     background: orange;
     
 }
@@ -33,69 +31,65 @@ body{
     width: 3%;
     height: 45px;
     border-radius: 15px;
+    float: left;
 }
-.str{
-    margin-top: 1%;
+.str-icon{
+    margin-top: 2%;
     margin-left: 3% ;
-    color: orange;
+    color:orange;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    float: left;
 }
-.phone{
-   
+.c-icon{
+    margin-top: 2%;
     margin-left: 3%;
     color: rgb(7, 7, 7);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    float: left;
 }
-.tab{
-    margin-left: 3%;
-    color: rgb(5, 5, 5);
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-}
-.tv{
-    margin-left: 3%;
-    color: rgb(10, 10, 10);
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-}
-.watch{
-    margin-left: 3%;
-    color: rgb(10, 10, 10);
-    text-decoration: none;
-    font-style: normal;
-    font-size: larger;
-}
+
 .disc{
+    margin-top: 2%;
     margin-left: 17%;
     color: rgb(10, 10, 10);
     text-decoration: none;
     font-style: normal;
     font-size: larger;
+    float: left;
 }
 .sup{
+    margin-top: 2%;
     margin-left: 3%;
     color: rgb(10, 10, 10);
     text-decoration: none;
     font-style: normal;
     font-size: larger;
+    float: left;
 }
 .fa-magnifying-glass{
+    margin-top: 2%;
     margin-left: 4%;
    font-size:x-large;
+   float: left;
+   cursor: pointer;
 }
 .fa-cart-shopping{
+    margin-top: 2%;
     margin-left: 3%;
     font-size:x-large;
+    float: left;
+    cursor: pointer;
 }
 .fa-user{
+    margin-top: 2%;
     margin-left: 3%;
     font-size:x-large;
+    float: left;
+    cursor: pointer;
 }
 .fmob{
     margin-left: 10%;
@@ -117,18 +111,10 @@ body{
     height: 15%;
     cursor: pointer;
 }
-.phone:hover{
+.c-icon:hover{
     color: orange;
 }
-.tab:hover{
-    color: orange;
-}
-.tv:hover{
-    color: orange;
-}
-.watch:hover{
-    color: orange;
-}
+
 .disc:hover{
     color: orange;
 }

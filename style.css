@@ -1,7 +1,5 @@
 body{
-    margin: 0%;
-    margin-left: 0%;
-    margin-right: 2%;
+    margin: 0px;   
     font-family: Arial, Helvetica, sans-serif;
 }
 .mainBody{
@@ -11,25 +9,26 @@ body{
 
 }
 .header{
-    width: 104%;
-    height: 66px;
+    width: 100%;
+    height: 2.5%;
     background: rgb(251, 248, 248);
 }
 .mcontent{
+    
     width: 100%;
-    height: 302px;
+    height:16%;
     background: orange;
     
 }
 #fimg{
-    width: 104%;
-
+    width: 100%;
+    height: 100%;
 }
 .logo{
     margin-top: 1%;
     margin-left: 3%;
     width: 3%;
-    height: 45px;
+    height: 67%;
     border-radius: 15px;
     float: left;
 }
@@ -72,7 +71,7 @@ body{
 }
 .fa-magnifying-glass{
     margin-top: 2%;
-    margin-left: 4%;
+    margin-left: 7%;
    font-size:x-large;
    float: left;
    cursor: pointer;
@@ -106,10 +105,11 @@ body{
     margin-left: 10%;
     background: black;
     color: azure;
-    border-radius: 16px;
-    width: 9%;
-    height: 15%;
+    border-radius: 10px;
+    width: 8%;
+    height: 8%;
     cursor: pointer;
+    font-size: large;
 }
 .c-icon:hover{
     color: orange;
@@ -123,10 +123,10 @@ body{
 }
 
 .m2content{
-    margin: 13%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 170px;
+    height: 6%;
     background-color: black;
 }
 .m2img{
@@ -150,10 +150,10 @@ body{
     cursor: pointer;
 }
 .m3content{
-    margin: -10%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 172px;
+    height: 6%; 
     background-color: black;
 
 }
@@ -183,10 +183,10 @@ body{
 
 }
 .m4content{
-    margin: 13%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 170px;
+    height: 6%;
     background-color: black;
 }
 .m4img{
@@ -215,10 +215,10 @@ body{
     cursor: pointer;
 }
 .m5content{
-    margin-top: -6%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 178px;
+    height: 6%;
     background-color: black;
 }
 .m5img{
@@ -247,10 +247,10 @@ body{
     cursor: pointer;
 }
 .m6content{
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 170px;
+    height: 6%;
     background-color: black;   
 }
 .m6img{
@@ -282,54 +282,54 @@ body{
     font-size: large;
 }
 .m7content{
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 170px;
+    height: 6%;
     background-color: black;  
 }
 .m8m{
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 280px;
+    height:10%;
     background-color: rgb(255, 255, 255);
     padding: 2%;
 }
 .m8b1{
     margin-left: -2%;
     width: 25%;
-    height: 279px;
+    height: 10%;
     background-color: rgb(255, 255, 255);
     float: left;
 }
 .m8b2{
     margin-left: 1%;
     width: 25%;
-    height: 279px;
+    height: 10%;
     background-color: rgb(255, 255, 255);
     float: left;
 }
 .m8b3{
     margin-left: 1%;
     width: 25%;
-    height: 279px;
+    height: 10%;
     background-color: rgb(255, 255, 255);
     float: left;
 }
 .m8b4{
     margin-left: 1%;
     width: 24%;
-    height: 279px;
+    height: 10%;
     background-color: rgb(255, 255, 255);
     float: left;
 }
 
 .pad{
-    margin-top: 135px;
-    margin-left: 168px;
+    margin-top: 43%;
+    margin-left: 51%;
     width: 37%;
-    height: 126px
+    height: 493%;
 }
 .m8bh{
     margin-left: 14%;
@@ -347,7 +347,7 @@ body{
     border-radius: 5px;
 }
 .m8bp2{
-    margin-top: 36%;
+    margin-top: 35%;
     margin-left: 13%;
     font-size: larger;
 }
@@ -363,51 +363,46 @@ body{
     color: #898989;
 }
 .tvimg{
-    margin-top: 135px;
-    margin-left: 128px;
-    width: 54%;
-    height: 115px;
+    margin-top: 42%;
+    margin-left: 40%;
+    width: 58%;
+    height: 493%;
 }
 .smair{
-    margin-top: 126px;
-    margin-left: 184px;
-    width: 24%;
-    height: 143px;
+    margin-top: 43%;
+    margin-left: 53%;
+    width: 25%;
+    height: 493%;
 }
-.m8b3h{
-    margin-left: 14%;
-    margin-top: -84%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
+
 .m8b3p2{
-    margin-top: 34%;
+    margin-top: 28%;
     margin-left: 13%;
     font-size: larger;
 }
 .buds{
-    margin-top: 101px;
-    margin-left: 128px;
-    width: 54%;
-    height: 158px;
+    margin-top: 36%;
+    margin-left: 42%;
+    width: 53%;
+    height: 565%;
 }
 .footer{
     margin-left: 0%;
     margin-top: 2%;
     width: 102%;
-    height: 600px;
+    height: 21%;
     background-color: #161313;
 }
 .f1{
     width: 68%;
-    height: 467px;
+    height: 82%;
     
     float: left;
     padding-left: 2%;
 }
 .f2{
     width: 28%;
-    height: 467px;
+    height: 82%;
     background-color: #161313;
     float: left;
     padding-left: 2%;

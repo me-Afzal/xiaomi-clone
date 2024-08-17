@@ -8,108 +8,114 @@ body{
 
 
 }
-.header{
+header{
     width: 100%;
-    height: 2.5%;
+    height: 2%;
     background: rgb(251, 248, 248);
+    display: flex;
+    
 }
 .mcontent{
     
     width: 100%;
-    height:16%;
+    height:15%;
     background: orange;
     
 }
-#fimg{
-    width: 100%;
-    height: 100%;
-}
+
 .logo{
-    margin-top: 1%;
-    margin-left: 3%;
+    margin-top: .3%;
+    margin-left: 2%;
     width: 3%;
-    height: 67%;
+    height: 83%;
     border-radius: 15px;
-    float: left;
+    
 }
 .str-icon{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3% ;
     color:orange;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    float: left;
+   
 }
 .c-icon{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3%;
     color: rgb(7, 7, 7);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    float: left;
+   
 }
 
 .disc{
-    margin-top: 2%;
-    margin-left: 21%;
+    margin-top: 1%;
+    margin-left: 22%;
     color: rgb(10, 10, 10);
     text-decoration: none;
     font-style: normal;
     font-size: larger;
-    float: left;
+    
 }
 .sup{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3%;
     color: rgb(10, 10, 10);
     text-decoration: none;
     font-style: normal;
     font-size: larger;
-    float: left;
+   
 }
 .fa-magnifying-glass{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3%;
    font-size:x-large;
-   float: left;
+   
    cursor: pointer;
 }
 .fa-cart-shopping{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3%;
     font-size:x-large;
-    float: left;
     cursor: pointer;
 }
 .fa-user{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3%;
     font-size:x-large;
-    float: left;
     cursor: pointer;
+}
+#fimg{
+    width: 100%;
+    height: 405px;
+    position:absolute;
 }
 .fmob{
     margin-left: 10%;
-    margin-top: -18%;
+    margin-top: 4%;
     color: black;
+    position: absolute;
 }
 .fmobd{
     margin-left: 10%;
-    margin-top: 1%;
+    margin-top: 7%;
     color: black;
     font-size: x-large;
+    position: absolute;
 }
 .btn1{
+    margin-top: 12%;
     margin-left: 10%;
     background: black;
     color: azure;
     border-radius: 10px;
     width: 8%;
-    height: 8%;
+    height: 35px;
     cursor: pointer;
     font-size: large;
+    position: absolute;
 }
 .c-icon:hover{
     color: orange;
@@ -130,7 +136,7 @@ body{
     background-color: black;
 }
 .m2img{
-
+    height: 100%;
     width: 100%;
 
 }
@@ -159,6 +165,7 @@ body{
 }
 .m3img{
     width: 100%;
+    height: 100%;
 }
 .m3h{
     margin-left: 10%;
@@ -191,6 +198,7 @@ body{
 }
 .m4img{
     width: 100%;
+    height: 100%;
 }
 .m4h{
     margin-left: 10%;
@@ -218,12 +226,12 @@ body{
     margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 6%;
+    height: 7%;
     background-color: black;
 }
 .m5img{
     width: 100%;
-    height: 113%;
+    height: 100%;
 }
 .m5h{
     margin-left: 10%;
@@ -250,12 +258,12 @@ body{
     margin-top: 4%;
     margin-left: 10%;
     width: 80%;
-    height: 6%;
+    height: 7%;
     background-color: black;   
 }
 .m6img{
     width: 100%;
-    height: 113%;
+    height: 100%;
 }
 .m6h{
     margin-left: 10%;
@@ -386,7 +394,7 @@ body{
     width: 53%;
     height: 565%;
 }
-.footer{
+footer{
     margin-left: 0%;
     margin-top: 2%;
     width: 102%;

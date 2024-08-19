@@ -5,22 +5,19 @@ body{
 .mainBody{
   width: 100%;
   height: 2700px;
-
-
+  display: flex;
+  flex-direction: column;
 }
 header{
     width: 100%;
     height: 2%;
     background: rgb(251, 248, 248);
-    display: flex;
-    
+    display: flex;   
 }
 .mcontent{
-    
     width: 100%;
     height:15%;
     background: orange;
-    
 }
 
 .logo{
@@ -47,16 +44,18 @@ header{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    transition: color 0.3s;
    
 }
 
 .disc{
     margin-top: 1%;
-    margin-left: 22%;
+    margin-left: 20%;
     color: rgb(10, 10, 10);
     text-decoration: none;
     font-style: normal;
     font-size: larger;
+    transition: color 0.3s;
     
 }
 .sup{
@@ -66,14 +65,18 @@ header{
     text-decoration: none;
     font-style: normal;
     font-size: larger;
+    transition: color 0.3s;
    
 }
-.fa-magnifying-glass{
-    margin-top: 1%;
+.h-btn{
+    margin-top: .5%;
     margin-left: 3%;
-   font-size:x-large;
-   
-   cursor: pointer;
+    font-size: x-large;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 73%;
+    border: 0px;
+    background-color: transparent;
 }
 .fa-cart-shopping{
     margin-top: 1%;
@@ -89,33 +92,34 @@ header{
 }
 #fimg{
     width: 100%;
-    height: 405px;
-    position:absolute;
+    height: 100%;
+   
 }
 .fmob{
-    margin-left: 10%;
-    margin-top: 4%;
+    left: 10%;
+    bottom: 87%;
     color: black;
-    position: absolute;
+    position: relative;
 }
 .fmobd{
-    margin-left: 10%;
-    margin-top: 7%;
+    left: 10%;
+    bottom: 91%;
     color: black;
+    position: relative;
     font-size: x-large;
-    position: absolute;
+    
 }
 .btn1{
-    margin-top: 12%;
-    margin-left: 10%;
-    background: black;
+    left: 10%;
+    bottom: 93%;
+    background-color: black;
+    position: relative;
     color: azure;
     border-radius: 10px;
     width: 8%;
     height: 35px;
     cursor: pointer;
     font-size: large;
-    position: absolute;
 }
 .c-icon:hover{
     color: orange;
@@ -141,19 +145,22 @@ header{
 
 }
 .anreturn{
-    margin-left: 10%;
-    margin-top: -11%;
+    position: relative;
+    bottom: 5.5em;
+    left: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
 }
 .shopn{
-    margin-left: 10%;
     background: black;
     color: azure;
     border-radius: 12px;
     width: 10%;
     height: 22%;
     cursor: pointer;
+    position: relative;
+    bottom: 13em;
+    left: 10%;
 }
 .m3content{
     margin-top: 4%;
@@ -168,26 +175,29 @@ header{
     height: 100%;
 }
 .m3h{
-    margin-left: 10%;
-    margin-top: -12%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    position: relative;
+    bottom: 5em;
+    left: 10%;
 }
 .m3p{
-    margin-left: 10%;
-    margin-top: -1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    position: relative;
+    bottom:10em;
+    left: 10%;
 }
 .m3btn{
-    margin-left: 10%;
     background: black;
     color: azure;
     border-radius: 12px;
     width: 10%;
     height: 22%;
     cursor: pointer;
-
+    position: relative;
+    bottom: 14em;
+    left: 10%;
 }
 .m4content{
     margin-top: 4%;
@@ -201,20 +211,23 @@ header{
     height: 100%;
 }
 .m4h{
-    margin-left: 10%;
-    margin-top: -12%;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    position: relative;
+    bottom: 5em;
+    left: 10%;
 
 }
 .m4p{
-    margin-left: 10%;
-    margin-top: -1%;
+    position: relative;
+    bottom: 10em;
+    left: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
 .m4btn{
-    margin-left: 10%;
+    position: relative;
+    bottom:14em ;
+    left: 10%;
     background: black;
     color: azure;
     border-radius: 12px;
@@ -234,19 +247,23 @@ header{
     height: 100%;
 }
 .m5h{
-    margin-left: 10%;
-    margin-top: -14%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    position: relative;
+    bottom: 5.5em;
+    left: 10%;
 }
 .m5p{
-    margin-left: 10%;
-    margin-top: -1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    position: relative;
+    bottom: 10.5em;
+    left: 10%;
 }
 .m5btn{
-    margin-left: 10%;
+  position: relative;
+  bottom: 15em;
+  left: 10%;
     background: black;
     color: azure;
     border-radius: 12px;
@@ -266,19 +283,23 @@ header{
     height: 100%;
 }
 .m6h{
-    margin-left: 10%;
-    margin-top: -14%;
+   position: relative;
+   bottom: 6em;
+   left: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
 }
 .m6p{
-    margin-left: 10%;
-    margin-top: -1%;
+   position: relative;
+   bottom: 12em;
+   left: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
 .m6btn{
-    margin-left: 10%;
+   position: relative;
+   bottom: 12em;
+   left: 10%;
     background: black;
     color: azure;
     border-radius: 12px;
@@ -296,6 +317,10 @@ header{
     height: 6%;
     background-color: black;  
 }
+.m7img{
+    width: 100%;
+    height: 100% ;
+}
 .m8m{
     margin-top: 4%;
     margin-left: 10%;
@@ -303,96 +328,104 @@ header{
     height:10%;
     background-color: rgb(255, 255, 255);
     padding: 2%;
+    display: flex;
+    justify-content: space-between;
 }
-.m8b1{
-    margin-left: -2%;
-    width: 25%;
-    height: 10%;
+.m8b{
+    width: 23%;
     background-color: rgb(255, 255, 255);
-    float: left;
-}
-.m8b2{
-    margin-left: 1%;
-    width: 25%;
-    height: 10%;
-    background-color: rgb(255, 255, 255);
-    float: left;
-}
-.m8b3{
-    margin-left: 1%;
-    width: 25%;
-    height: 10%;
-    background-color: rgb(255, 255, 255);
-    float: left;
-}
-.m8b4{
-    margin-left: 1%;
-    width: 24%;
-    height: 10%;
-    background-color: rgb(255, 255, 255);
-    float: left;
+    
 }
 
 .pad{
-    margin-top: 43%;
-    margin-left: 51%;
+    position: relative;
+    bottom: 33%;
+    left: 55%;
     width: 37%;
-    height: 493%;
+    height: 45%;
 }
 .m8bh{
     margin-left: 14%;
-    margin-top: -78%;
+    margin-top: 7%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     
 }
 .m8bp1{
-    margin-top: -4%;
-    margin-left: 14%;
+    bottom: 4%;
+    left: 14%;
     border: 1px solid orange;
-    width: 20%;
     color: orange;
     border-radius: 5px;
+    display: inline;
+    position: relative;
 }
 .m8bp2{
-    margin-top: 35%;
-    margin-left: 13%;
+    position: relative;
+    top: 26%;
+    left: 15%;
     font-size: larger;
 }
 .m8bh2{
-    margin-top: -5%;
-    margin-left: 9%;
-    font-size: x-large
+    display: inline;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: x-large;
 }
 .delp{
-    margin-top: -5%;
-    margin-left: 9%;
+    position: relative;
     font-size: medium;
     color: #898989;
+    top: 15%;
+    left: 11%;
 }
 .tvimg{
-    margin-top: 42%;
-    margin-left: 40%;
-    width: 58%;
-    height: 493%;
+    position: relative;
+    bottom: 23%;
+    left: 42%;
+    width: 57%;
+    height: 42%;
 }
 .smair{
-    margin-top: 43%;
-    margin-left: 53%;
-    width: 25%;
-    height: 493%;
+    position: relative;
+    top: 5%;
+    left: 60%;
+    width: 28%;
+    height: 45%;
 }
 
 .m8b3p2{
-    margin-top: 28%;
-    margin-left: 13%;
+    display: inline;
+    position: relative;
+    top: 31%;
+    right: 6%;
     font-size: larger;
+
+}
+.m8b3h2{
+    display: inline;
+    position: relative;
+    top: 41%;
+    right: 28%;
+    font-size: x-large;
+
+
+}
+.delpb3{
+    display: inline;
+    position: relative;
+    font-size: medium;
+    color: #898989;
+    top: 50%;
+    right: 54%;
 }
 .buds{
-    margin-top: 36%;
-    margin-left: 42%;
-    width: 53%;
-    height: 565%;
+    position: relative;
+    bottom: 36%;
+    left: 46%;
+    width: 50%;
+    height: 51%;
 }
 footer{
     margin-left: 0%;
@@ -400,20 +433,27 @@ footer{
     width: 102%;
     height: 21%;
     background-color: #161313;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 82% 18%;
+    grid-template-areas: "f1 f2"
+                          "f3 f3";
 }
 .f1{
-    width: 68%;
     height: 82%;
-    
-    float: left;
     padding-left: 2%;
+    grid-area: f1;
 }
 .f2{
-    width: 28%;
     height: 82%;
     background-color: #161313;
-    float: left;
     padding-left: 2%;
+    grid-area: f2;
+}
+.f3{
+    border-top: 1px solid white;
+    grid-area: f3;
+    display: flex;
 }
 .f1-h{
    
@@ -467,18 +507,18 @@ footer{
     margin-top: 4%;
     margin-left: 3%;
     width: 82%;
-    height: 31%;
+    height: 41%;
     border: 1px solid white;
     border-radius: 10px; 
 }
 .f2b2{
-    margin-top: -2%;
-    margin-left: 0%;
     width: 100%;
-    height: 33%;
+    height: 26%;
     border: 1px solid white;
     border-radius: 10px;
     padding-top: 5%;
+    position: relative;
+    bottom: 45%;
 }
 .qr{
     margin-top: 2%;
@@ -488,16 +528,17 @@ footer{
     float: left;
 }
 .f2-h{
-    margin-left: 34%;
-    margin-top: 3%;
+    text-align: center;
     width: 100%;
     color: aliceblue;
 }
 .f2-p{
-    margin-left: 26%;
-    margin-top: -5%;
+    display: inline-block;
     width: 100%;
     color: rgba(240, 248, 255, 0.679);
+    position: relative;
+    bottom: 32%;
+    left: 25%;
 }
 .play{
    
@@ -514,15 +555,18 @@ footer{
     font-size: large;
     color: azure;
 }
+hr{
+    width: 104%;
+}
 .cpr{
     margin-left: 1%;
     margin-top: 2%;
    font-size: medium;
    color: aliceblue;
-   float: left;
+   
 }
 .site{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 9%;
     text-decoration: none;
     font-size: medium;
@@ -530,7 +574,7 @@ footer{
     cursor: pointer;
 }
 .india{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 42%;
     text-decoration: none;
     font-size: medium;
@@ -540,7 +584,7 @@ footer{
 .fa-globe{
     color: #d0d0d0;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 2%;
     font-size: large
 
 }
